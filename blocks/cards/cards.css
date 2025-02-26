@@ -12,6 +12,10 @@
   background-color: var(--background-color);
 }
 
+.adventures .cards > ul > li {
+  border: none;
+}
+
 .cards .cards-card-body {
   margin: 16px;
 }
@@ -24,4 +28,14 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.adventures .cards .cards-card-body {
+  margin: 0px;
+}
+
+.adventures .cards .cards-card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

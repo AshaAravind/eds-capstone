@@ -45,6 +45,11 @@
   inset: 0;
 }
 
+.adventures .carousel .carousel-slide .carousel-slide-image picture {
+  max-height: 36pc;
+
+}
+
 .carousel .carousel-slide .carousel-slide-image picture > img {
   height: 100%;
   width: 100%;
@@ -72,8 +77,8 @@
 }
 
 .carousel .carousel-slide-indicator button {
-  width: 24px;
-  height: 24px;
+  width: 10px;
+  height: 10px;
   margin: 0;
   padding: 0;
   border-radius: 50%;
@@ -149,5 +154,10 @@
 
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
     --slide-content-width: auto;
+  }
+
+  .carousel-container .carousel-wrapper {
+    margin: 0 180px;
+    max-width: -webkit-fill-available;;
   }
 }

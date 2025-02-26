@@ -93,8 +93,8 @@ function createSlide(row, slideIndex, carouselId) {
 }
 
 let carouselId = 0;
-export default async function decorate(block) {
 
+export default async function decorate(block) {
   carouselId += 1;
   block.setAttribute('id', `carousel-${carouselId}`);
   const rows = block.querySelectorAll(':scope > div');

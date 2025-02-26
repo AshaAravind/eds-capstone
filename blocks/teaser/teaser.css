@@ -1,0 +1,38 @@
+.teaser {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teaser-image {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.teaser-image img {
+  width: 100%;
+  height: auto;
+}
+
+.teaser-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teaser-text h1, 
+.teaser-text h2,
+.teaser-text h3,
+.teaser-text h4,
+.teaser-text h5,
+.teaser-text h6 {
+  margin: 0 0 16px 0;
+}
+
+.teaser-text p {
+  margin: 0 0 16px 0;
+}
+
+.teaser-text .button-container {
+  margin-top: 16px;
+}
