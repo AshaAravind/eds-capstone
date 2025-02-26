@@ -58,7 +58,7 @@
 
 .carousel .carousel-slide .carousel-slide-content {
   z-index: 1;
-  margin: 0px;
+  margin: 0;
   padding: 16px;
   color: black;
   background-color: white;
@@ -148,8 +148,7 @@
 
   .carousel .carousel-slide .carousel-slide-content {
     --slide-content-width: 80%;
-
-    margin: 0px;
+    margin: 0;
   }
 
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
