@@ -119,7 +119,7 @@ export default async function decorate(block) {
   nav.id = 'nav';
   while (fragment.firstElementChild) {
     nav.append(fragment.firstElementChild);
-  };
+  }
 
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
