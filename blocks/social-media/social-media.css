@@ -1,0 +1,30 @@
+.social-media-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.social-media {
+  margin-top: 0.8em;
+}
+
+.social-media .social-media-parent {
+  display: flex;
+}
+
+.social-media .social-media-parent .social-media-prefix {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.social-media .social-media-parent .social-media-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: lightgray;
+  margin-top: -5px;
+  padding: 5px;
+  flex: 2;
+}
+

@@ -17,4 +17,29 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+
+  footer .social-media-container .default-content-wrapper {
+    display: flex;
+    flex: 4;
+  }
+  footer .social-media-container .default-content-wrapper p {
+    flex: 1;
+  }
+  footer .social-media-container .default-content-wrapper p span {
+    width: 130px;
+    height: auto;
+  }
+
+  footer .social-media-container .default-content-wrapper ul {
+    display: flex;
+    flex: 4;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+  }
+
+  footer .social-media-container .social-media-wrapper {
+    flex: 1
+  }
 }
+
