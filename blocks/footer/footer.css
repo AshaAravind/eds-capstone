@@ -22,9 +22,11 @@ footer .footer p {
     display: flex;
     flex: 4;
   }
+
   footer .social-media-container .default-content-wrapper p {
     flex: 1;
   }
+  
   footer .social-media-container .default-content-wrapper p span {
     width: 130px;
     height: auto;
