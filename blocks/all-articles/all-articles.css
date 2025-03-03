@@ -1,0 +1,20 @@
+.articles-container {
+    display: flex;
+    justify-content: normal;
+    flex-wrap: wrap;
+}
+
+.articles-container .magazine {
+    width: 250px;
+    margin: 0 20px;
+}
+
+.magazine a img {
+    height: 150px;
+}
+
+.magazine p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
