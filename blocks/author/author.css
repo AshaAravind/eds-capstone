@@ -1,0 +1,37 @@
+.article-details h2::after {
+  content: '';
+  padding: 1px;
+  width: 100px;
+  background-color: yellowgreen;
+  display: block;
+  margin: 20px 0;
+}
+
+.author {
+    display: flex;
+    max-height: 70px;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+.author > .author-image img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.author .author-links {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.author .author-links .icon {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.author .author-title h3 {
+    margin-top: 0;
+}
