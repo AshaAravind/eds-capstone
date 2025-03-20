@@ -35,3 +35,31 @@
 .author .author-title h3 {
     margin-top: 0;
 }
+
+.section.about-us-authors {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-us-authors .author-wrapper {
+    margin: 0;
+}
+
+.about-us-authors .author {
+    max-height: unset;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    align-items: center;
+}
+
+.about-us-authors .author .author-title h3,h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.about-us-authors .author .author-links {
+    width: 100%;
+    justify-content: center;
+}
